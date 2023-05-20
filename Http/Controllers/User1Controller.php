@@ -69,11 +69,11 @@ Class User1Controller extends Controller {
     }
 
 
-    //update student record by studid 
+    //update student record by studid    
         public function updatestudid(Request $request,$id)
     {
     $rules = [
-        'lastname' => 'required|max:50', 
+        'lastname'  => 'required|max:50', 
         'firstname' => 'required|max:50',
         'middlename' => 'required|max:50',
         'bday' => 'required|date',
