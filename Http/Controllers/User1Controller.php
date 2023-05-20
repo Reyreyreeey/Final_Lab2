@@ -69,7 +69,7 @@ Class User1Controller extends Controller {
     }
 
 
-    //update student record by studid
+    //update student record by studid 
         public function updatestudid(Request $request,$id)
     {
     $rules = [
